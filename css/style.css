@@ -39,12 +39,15 @@ html{
 
 .navbar a{
     font-weight: 400;
+    font-size: 20px;
+    color: #707070;
     padding: 0 20px;
     margin: 0 5px;
 }
 
 .navbar a:hover{
     text-decoration: underline;
+    color: #FF0093;
 }
 
 .navbar .flex{
