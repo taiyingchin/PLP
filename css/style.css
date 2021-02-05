@@ -70,3 +70,14 @@ html{
     max-width: 40%;
     height: 200px;
 }
+
+/* Subscription Tiers */
+
+.tier-block{
+    display: flex;
+    height: 300px;
+    max-width: 25%;
+    padding: 0 45px;
+    text-align: center;
+    align-items: center;
+}
