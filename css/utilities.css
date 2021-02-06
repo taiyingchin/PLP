@@ -51,6 +51,14 @@ h4{
     border: 5px solid blue;
 }
 
+.tier-container{
+    height: 600px;
+    border: 5px solid blue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pushdown{
     margin-top: 150px;
 }

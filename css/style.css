@@ -73,11 +73,27 @@ html{
 
 /* Subscription Tiers */
 
-.tier-block{
-    display: flex;
-    height: 300px;
-    max-width: 25%;
-    padding: 0 45px;
+.tier-head{
     text-align: center;
+    margin: auto;
+    width: 380px;
+    margin-top: 140px;
+}
+
+.tier-block{
+    /* border: 5px solid purple; */
+    display: flex;
+    height: 350px;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
+}
+
+.tier-cube{
+    /* height: 150px; */
+    width: 250px;
+    text-align: center;
+    /* border: 5px solid black; */
 }
