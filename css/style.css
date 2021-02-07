@@ -25,6 +25,11 @@ html{
     scroll-behavior: smooth;
 }
 
+iframe{
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 /* Navigation Bar */
 .navbar{
     height: 70px;
@@ -55,11 +60,25 @@ html{
     overflow: hidden;
 }
 
-/* Showcase Section */
+/*  Showcase Section */
 
 #down{
     margin-top: 70px;
 }
+
+.showcase-text{
+    color: white;
+    text-align: center;
+    padding-top: 230px;
+    font-size: 80px;
+    width: 80%;
+    margin:auto;
+}
+
+.showcase-text strong{
+    color: #FF0093;
+}
+/* Featured Video */
 
 .content-container .flex{
     justify-content: space-evenly;
@@ -77,7 +96,7 @@ html{
     text-align: center;
     margin: auto;
     width: 380px;
-    margin-top: 140px;
+    margin-top: 80px;
 }
 
 .tier-block{
@@ -89,11 +108,21 @@ html{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    margin-top: 60px;
 }
 
 .tier-cube{
-    /* height: 150px; */
+    height: 350px;
+    padding-top: 115px;
+    padding-left: 5px;
+    padding-right: 5px;
     width: 250px;
     text-align: center;
     /* border: 5px solid black; */
+}
+
+.tier-cube i{
+    /* border: solid 1px red; */
+    margin: 100px;
+    color: #707070;
 }
