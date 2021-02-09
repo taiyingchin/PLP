@@ -31,6 +31,9 @@
 
         <!-- Featured Video Section-->
         <section class = "content-container" id = "features">
+            <div>
+                <iframe id = "video" width="640" height="385" src="https://www.youtube.com/embed/vgIplQn92gU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div class = "flex">
                 <div>
                     <h1>At Duxelle, we only serve the best</h1>
@@ -38,9 +41,6 @@
                 <div>
                     <p>Duxelle provides a wide variety of cooking curriculum from world renowned chefs all over the world. Whether you’re trying to learn how to make scrambled eggs, or the next world famous beef wellington, Duxelle has you covered. Choose from three different curriculums personalized to provide you with the best learning experience possible in line with your cooking skill.</p>
                 </div>
-            </div>
-            <div>
-                <iframe id = "video" width="640" height="385" src="https://www.youtube.com/embed/vgIplQn92gU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
         
@@ -71,23 +71,39 @@
         </section>
 
         <!--  -->
-        <section class = "content-container">
-            <form action="" id = "form" class = "form-container">
-                <div>
-                    <input type="text" name = "name" placeholder = "Name" required>
-                </div>
-                <div>
-                    <input type="email" name = "email" placeholder = "Email" required>
-                </div>
-                <div>
-                    <input type="submit" value = "Send">
-                </div>
-            </form>
+        <section class = "news-container">
             <div class = "flex">
                 <h1>Newsletter time!</h1>
                 <p>If you would like to subscribe to our monthly newsletter to learn tips and tricks when cooking, as well as a monthly recipe, please leave your info!</p>
             </div>
+            <form action="https://www.freecodecamp.com/email-submit" id = "form" class = "form-container">
+                <div>
+                    <h2>Newsletter Sign Up</h2>
+                </div>
+                <div>
+                    <input type="text" name = "name" placeholder = "Name" class = "form-control" required>
+                </div>
+                <div>
+                    <input type="email" name = "email" placeholder = "Email" class = "form-control" id = "email" required>
+                </div>
+                <div>
+                    <input type="submit" value = "Send" class = "submit-btn" id = "submit">
+                </div>
+            </form>
         </section>
+
+        <!-- Footer -->
+        <footer class = "mainfooter">
+            <div class = "container flex">
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Learn More</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
 
         <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>

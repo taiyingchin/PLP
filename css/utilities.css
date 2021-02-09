@@ -20,6 +20,14 @@ h4{
     font-size: 15px;
 }
 
+/* Variables */
+
+:root {
+    --pink: #ff0093;
+}
+
+/* Classes */
+
 .container{
     max-width: 1500px;
     margin: 0 auto;
@@ -41,22 +49,33 @@ h4{
 }
 
 .content-container{
-    height: 600px;
+    height: 700px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 
 .tier-container{
-    height: 600px;
-    border: 5px solid blue;
+    height: 650px;
+    /* border: 5px solid blue; */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.news-container{
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid green; */
 }
 
 /* Parallax */
@@ -85,11 +104,12 @@ h4{
 .form-container{
     background-color: #fff;
     border-radius: 10px;
-    margin: 10px;
+    margin-top: 15px;
     width: 30%;
-    height: 250px;
+    height: auto;
+    padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .card{
@@ -104,4 +124,8 @@ h4{
     transform: translateY(-10px);
     /* color: #FF0093; */
     /* background-color: #CCCCCC; */
+}
+
+@media(min-width: 500px) and (max-width: 768px){
+
 }

@@ -76,7 +76,7 @@ iframe{
 }
 
 .showcase-text strong{
-    color: #FF0093;
+    color: var(--pink);
 }
 /* Featured Video */
 
@@ -125,4 +125,53 @@ iframe{
     /* border: solid 1px red; */
     margin: 100px;
     color: #707070;
+}
+
+/* Newsletter Section */
+
+.news-container .flex{
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    text-align: center;
+    align-content: space-evenly;
+    padding: 0 10px;
+    max-width: 40%;
+    height: 200px;
+}
+
+.form-control{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+
+.submit-btn{
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+
+.mainfooter{
+    height: 70px;
+    background-color: #707070;
+}
+
+.mainfooter ul{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.mainfooter a{
+    font-weight: 400px;
+    color: white;
+    padding: 0 20px;
+    margin: 0 5px;
 }
