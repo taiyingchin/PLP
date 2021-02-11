@@ -127,8 +127,6 @@ h4{
 }
 
 @media(min-width: 768px) and (max-width: 1700px){
-    .content-container{
-        flex-direction: column;
-        height: auto;
-    }
+    /* Showcase Section */
+    
 }
