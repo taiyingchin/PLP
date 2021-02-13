@@ -175,3 +175,41 @@ iframe{
     padding: 0 20px;
     margin: 0 5px;
 }
+
+@media(min-width: 768px) and (max-width: 1300px){
+    /* Showcase Section */
+    .showcase-text{
+        font-size: 60px;
+        padding-top: 180px;
+    }
+
+    .content-container{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .content-container .flex{
+        max-width: 90%;
+    }
+
+    .navbar a:hover{
+        text-decoration: none;
+        color: #707070;
+    }
+
+    .card:hover{
+        transform: none;
+    }
+
+    .news-container{
+        flex-direction: column;
+    }
+
+    .news-container .flex{
+        max-width: 90%;
+    }
+
+    .form-container{
+        width: 90%;
+    }
+}

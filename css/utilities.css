@@ -92,7 +92,6 @@ h4{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;
     background-image: url(/images/tacos.jpg);
     box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.7);
 }
@@ -124,9 +123,4 @@ h4{
     transform: translateY(-10px);
     /* color: #FF0093; */
     /* background-color: #CCCCCC; */
-}
-
-@media(min-width: 768px) and (max-width: 1700px){
-    /* Showcase Section */
-    
 }
